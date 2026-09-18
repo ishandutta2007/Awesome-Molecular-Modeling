@@ -1,215 +1,107 @@
-# Awesome-Molecular-Modeling
+# 🧬 Awesome Molecular Modeling
 
-## Top Molecular Modeling Ecosystem
+[![Banner](./assets/banner.svg)](https://github.com/ishandutta2007/Awesome-Molecular-Modeling)
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" />
+  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg" alt="PRs Welcome" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 🔬 Top Molecular Modeling Ecosystem: SaaS Platforms & Open-Source Tools
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+A curated, SEO-optimized list of top **SaaS / commercial platforms** and **open-source software** for **Molecular Modeling**, **Molecular Dynamics (MD)**, **Cheminformatics**, **Protein-Ligand Docking**, **Computational Chemistry**, and **Structure-Based Drug Design (SBDD)**.
 
-*Focused on Molecular Visualization, Molecular Dynamics, Docking, Cheminformatics, Structure-Based Design & Computational Chemistry*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS / commercial platforms** and **open-source projects** for **Molecular Modeling**. These tools enable scientists to build, visualize, simulate, and analyze molecular structures—supporting applications in drug discovery, materials science, structural biology, and computational chemistry.
-
-
-
-**Examples** include Schrödinger, BIOVIA Discovery Studio, OpenEye Scientific, MOE, Cresset, Gaussian Cloud, ChemAxon, SeeSAR, PyMOL Pro, and YASARA (the category leaders).
-
-
-
-**Open-source emphasis**: Molecular modeling has one of the strongest open-source ecosystems in scientific computing. **PyMOL (open-source)**, **OpenMM**, **GROMACS**, **RDKit**, **VMD**, **ChimeraX**, and many related projects power research and production workflows worldwide. This section is heavily expanded with every major active project.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Schrödinger](https://www.schrodinger.com/)**  
-
-  Leading integrated platform for structure-based drug design, molecular dynamics (Desmond), docking (Glide), and enterprise computational chemistry workflows.
-
-
-
-- **[BIOVIA Discovery Studio (Dassault)](https://www.3ds.com/products/biovia)**  
-
-  Comprehensive modeling and simulation suite for life sciences, covering protein modeling, docking, pharmacophore analysis, and materials applications.
-
-
-
-- **[OpenEye Scientific (Cadence)](https://www.eyesopen.com/)**  
-
-  High-performance cheminformatics and molecular modeling toolkits plus the Orion cloud platform, known for shape-based screening, docking, and large-scale virtual screening.
-
-
-
-- **[MOE (Chemical Computing Group)](https://www.chemcomp.com/)**  
-
-  Molecular Operating Environment offering integrated modeling, simulations, cheminformatics, and application development in a single package.
-
-
-
-- **[Cresset, ChemAxon, SeeSAR, YASARA](https://www.cresset-group.com/)**  
-
-  Specialized tools for ligand-based design, cheminformatics, structure-based design, and molecular dynamics/visualization.
-
-
-
-- **[Gaussian Cloud & related quantum chemistry offerings](https://gaussian.com/)**  
-
-  Industry-standard quantum chemistry software available in cloud and traditional licensing models for high-accuracy electronic structure calculations.
-
-
-
-- **[PyMOL Pro (Schrödinger)](https://pymol.org/)**  
-
-  Commercial/incentive version of the widely used molecular visualization system with support and additional features.
-
-
-
-- **[Other commercial molecular modeling platforms](https://www.schrodinger.com/)**  
-
-  Additional enterprise solutions covering virtual screening, free-energy calculations, and integrated discovery workflows.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[PyMOL Open-Source](https://github.com/schrodinger/pymol-open-source)**  
-
-  Open-source foundation of the popular PyMOL molecular visualization system. Widely used for high-quality 3D molecular graphics, scripting, and structural analysis (BSD-like license).
-
-
-
-- **[OpenMM](https://github.com/openmm/openmm)**  
-
-  High-performance toolkit for molecular dynamics simulation with excellent GPU acceleration, flexible custom forces/integrators, and strong Python bindings. Suitable as a library or standalone engine.
-
-
-
-- **[GROMACS](https://github.com/gromacs/gromacs)**  
-
-  Leading open-source molecular dynamics package optimized for high-performance simulations of proteins, lipids, nucleic acids, and other biomolecular systems.
-
-
-
-- **[RDKit](https://github.com/rdkit/rdkit)**  
-
-  Comprehensive open-source cheminformatics and machine-learning toolkit for molecular representation, fingerprinting, descriptors, substructure search, and more.
-
-
-
-- **[UCSF ChimeraX](https://github.com/RBVI/ChimeraX)**  
-
-  Next-generation open-source molecular visualization and analysis program from UCSF, supporting large structures, cryo-EM data, and advanced interactive graphics.
-
-
-
-- **[VMD (Visual Molecular Dynamics)](https://www.ks.uiuc.edu/Research/vmd/)**  
-
-  Widely used open-source visualization and analysis tool for large biomolecular systems, with strong scripting and trajectory analysis capabilities.
-
-
-
-- **[AutoDock / AutoDock Vina and related docking tools](https://github.com/ccsb-scripps/AutoDock-Vina)**  
-
-  Popular open-source molecular docking packages for predicting ligand–protein binding poses and virtual screening.
-
-
-
-- **[Other open molecular modeling & simulation projects](https://github.com/search?q=molecular+dynamics+OR+molecular+modeling+OR+cheminformatics)**  
-
-  Additional community tools including Avogadro (molecule editing), NAMD, LAMMPS (materials-focused MD), Open Babel, and specialized analysis libraries.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **MD engines**: OpenMM, GROMACS, NAMD, LAMMPS for classical molecular dynamics.
-
-- **Visualization**: PyMOL open-source, ChimeraX, VMD, and web-based viewers (NGL, Mol*).
-
-- **Cheminformatics**: RDKit, Open Babel, Indigo for molecular handling and property calculation.
-
-- **Docking & scoring**: AutoDock Vina and related open docking frameworks.
-
-- **Force-field & parameterization helpers**: OpenMM Force Fields, PDBFixer, and community parameter sets.
-
-- **Analysis toolkits**: MDAnalysis, mdtraj, and related Python libraries for trajectory analysis.
-
-- Fully open research stacks: RDKit (cheminformatics) + OpenMM/GROMACS (simulation) + PyMOL/ChimeraX (visualization) + AutoDock (docking).
-
-
-
-**Frameworks for building custom systems**:  
-
-The strongest open-source foundations are **PyMOL (open-source)** and **ChimeraX/VMD** for visualization, **OpenMM** and **GROMACS** for molecular dynamics, **RDKit** for cheminformatics, and **AutoDock Vina** for docking.  
-
-These tools are production-capable for academic and many industrial research workflows.  
-
-Commercial platforms (Schrödinger, BIOVIA, OpenEye, MOE, etc.) provide integrated enterprise suites, advanced free-energy methods, polished GUIs, validated workflows, support, and cloud scaling that many pharmaceutical and biotech organizations require.  
-
-Hybrid approaches are common: open-source engines and visualization combined with commercial tools for specific high-value calculations or regulatory documentation.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS/commercial or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Molecular modeling results depend heavily on force fields, parameters, system setup, and sampling. Users must validate methods against experimental data and understand the limitations of classical and quantum approximations.
-
-- Open-source tools offer transparency and no licensing cost but require expertise in installation, parameterization, high-performance computing, and scientific interpretation. Commercial packages often bundle support, validated protocols, and enterprise features. Choose according to scientific needs, budget, and available expertise.
-
-
+📅 **Last updated: September 2026**
 
 ---
 
+## 📌 Table of Contents
 
+- [🏢 SaaS & Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
 
-**Made for computational chemists, structural biologists, drug designers, and materials scientists.**  
+---
 
-Let's advance open, reproducible molecular modeling while recognizing the integrated capabilities and support that leading commercial platforms deliver.
+## 🏢 SaaS & Hosted Commercial Platforms
+
+### 📊 Market Overview & Industry Dynamics
+The global **molecular modeling and computational chemistry market size** is estimated at approximately **$2.8 Billion** and is projected to reach **$6.5 Billion by 2032**. The sector is **moderately fragmented**—dominated by established enterprise leaders (Schrödinger, Dassault BIOVIA, Cadence/OpenEye) while facing high innovation from specialized cloud SaaS vendors and open-source ecosystems.
+
+### 💰 Commercial & SaaS Product Matrix
+
+The SaaS and commercial solutions below are sorted in descending order by **Company Size / Valuation / Revenue**.
+
+| Company / Product 🏢 | Market Size & Valuation / Revenue 📈 | Starting Tier Price 💳 | Free Tier / Trial Limit ⏳ | Key Focus & Capabilities 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[BIOVIA Discovery Studio](https://www.3ds.com/products/biovia)** *(Dassault Systèmes)* | ~$40B Valuation (Dassault Systèmes) | ~$10,000 / user / year | 14-day free trial (upon enterprise request) | Comprehensive suite for protein modeling, docking, pharmacophore analysis, and materials simulation. |
+| **[OpenEye Scientific (Cadence Orion)](https://www.eyesopen.com/)** | ~$80B Valuation (Cadence Design Systems) | ~$5,000 / user / year | 30-day free trial on Orion Cloud Platform | High-performance shape-based virtual screening, cloud-native docking, and molecular toolkits. |
+| **[Schrödinger Suite & PyMOL Pro](https://www.schrodinger.com/)** | ~$1.8B Valuation / ~$200M+ Annual Revenue | ~$8,500 / license / year (PyMOL Pro from $99/yr) | 30-day full-feature evaluation trial | Industry-leading structure-based drug design, Desmond MD, Glide docking, and PyMOL Pro graphics. |
+| **[ChemAxon](https://chemaxon.com/)** | ~$50M Revenue | ~$1,200 / user / year | Free 30-day trial & free academic license | Enterprise cheminformatics, molecule property calculation, reaction predictions, and drawing tools. |
+| **[MOE (Chemical Computing Group)](https://www.chemcomp.com/)** | ~$40M Revenue | ~$7,500 / license / year | 14-day evaluation trial (academic/corporate review) | Integrated molecular operating environment for structure-based design, simulations, and custom SVL scripting. |
+| **[Gaussian Cloud](https://gaussian.com/)** | ~$30M Revenue | ~$2,500 / site license / year | 14-day demo access (academic hosting request) | Quantum chemistry gold standard for electronic structure calculations, density functional theory (DFT), and energetics. |
+| **[Cresset (Flare & Spark)](https://www.cresset-group.com/)** | ~$20M Revenue | ~$3,500 / user / year | 14-day free evaluation trial | Ligand-based design, 3D molecular field similarity, and electrostatic interaction profiling. |
+| **[SeeSAR (BioSolveIT)](https://www.biosolveit.de/SeeSAR/)** | ~$10M Revenue | ~$1,500 / user / year | Free 14-day unrestricted trial | Interactive ligand design, affinity binding prediction, visual docking, and ADME assessment. |
+| **[YASARA](http://www.yasara.org/)** | ~$5M Revenue | ~$400 / stage license | Free YASARA View mode (forever) | Real-time molecular dynamics simulation, molecular graphics, and automated structure refinement. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Molecular modeling features one of the strongest open-source computational ecosystems. Below are the top open-source repositories ranked in descending order by **GitHub Star Count** 🌟.
+
+| Rank | Project Name 🚀 | GitHub Stars ⭐ | Primary Domain 🧪 | Description 📝 |
+| :---: | :--- | :---: | :--- | :--- |
+| 1 | **[DeepChem](https://github.com/deepchem/deepchem)** | [![Stars](https://img.shields.io/github/stars/deepchem/deepchem?style=social&color=white)](https://github.com/deepchem/deepchem/stargazers) | Machine Learning & AI | Democratizing deep learning for drug discovery, quantum chemistry, materials science, and biology. |
+| 2 | **[BioPython](https://github.com/biopython/biopython)** | [![Stars](https://img.shields.io/github/stars/biopython/biopython?style=social&color=white)](https://github.com/biopython/biopython/stargazers) | Bioinformatics | International association of developers of freely available Python tools for computational molecular biology. |
+| 3 | **[RDKit](https://github.com/rdkit/rdkit)** | [![Stars](https://img.shields.io/github/stars/rdkit/rdkit?style=social&color=white)](https://github.com/rdkit/rdkit/stargazers) | Cheminformatics | Open-source cheminformatics toolkit for 2D/3D molecular manipulation, descriptor generation, and fingerprinting. |
+| 4 | **[LAMMPS](https://github.com/lammps/lammps)** | [![Stars](https://img.shields.io/github/stars/lammps/lammps?style=social&color=white)](https://github.com/lammps/lammps/stargazers) | Molecular Dynamics | Classical molecular dynamics code focused on materials modeling, polymers, metals, and granular systems. |
+| 5 | **[OpenMM](https://github.com/openmm/openmm)** | [![Stars](https://img.shields.io/github/stars/openmm/openmm?style=social&color=white)](https://github.com/openmm/openmm/stargazers) | Molecular Dynamics | High-performance GPU-accelerated engine for molecular dynamics with customizable force fields and Python API. |
+| 6 | **[PyMOL Open-Source](https://github.com/schrodinger/pymol-open-source)** | [![Stars](https://img.shields.io/github/stars/schrodinger/pymol-open-source?style=social&color=white)](https://github.com/schrodinger/pymol-open-source/stargazers) | Visualization | Open-source foundation of PyMOL 3D molecular graphics and animation system. |
+| 7 | **[MDAnalysis](https://github.com/MDAnalysis/mdanalysis)** | [![Stars](https://img.shields.io/github/stars/MDAnalysis/mdanalysis?style=social&color=white)](https://github.com/MDAnalysis/mdanalysis/stargazers) | Trajectory Analysis | Object-oriented Python library to analyze molecular dynamics trajectories generated by GROMACS, CHARMM, AMBER, etc. |
+| 8 | **[Open Babel](https://github.com/openbabel/openbabel)** | [![Stars](https://img.shields.io/github/stars/openbabel/openbabel?style=social&color=white)](https://github.com/openbabel/openbabel/stargazers) | Cheminformatics | Chemical toolbox designed to speak the many languages of chemical data formats and 3D coordinate conversion. |
+| 9 | **[Mol* (Molstar)](https://github.com/molstar/molstar)** | [![Stars](https://img.shields.io/github/stars/molstar/molstar?style=social&color=white)](https://github.com/molstar/molstar/stargazers) | Web Visualization | Modern web-based toolkit for high-performance visualization and analysis of macromolecular structures. |
+| 10 | **[GROMACS](https://github.com/gromacs/gromacs)** | [![Stars](https://img.shields.io/github/stars/gromacs/gromacs?style=social&color=white)](https://github.com/gromacs/gromacs/stargazers) | Molecular Dynamics | High-performance molecular dynamics engine optimized for proteins, lipids, and nucleic acids simulations. |
+| 11 | **[MDTraj](https://github.com/mdtraj/mdtraj)** | [![Stars](https://img.shields.io/github/stars/mdtraj/mdtraj?style=social&color=white)](https://github.com/mdtraj/mdtraj/stargazers) | Trajectory Analysis | Fast, modern Python library for analyzing molecular dynamics trajectories with low memory footprint. |
+| 12 | **[AutoDock Vina](https://github.com/ccsb-scripps/AutoDock-Vina)** | [![Stars](https://img.shields.io/github/stars/ccsb-scripps/AutoDock-Vina?style=social&color=white)](https://github.com/ccsb-scripps/AutoDock-Vina/stargazers) | Molecular Docking | Fast and accurate molecular docking & virtual screening software developed by Scripps Research. |
+| 13 | **[UCSF ChimeraX](https://github.com/RBVI/ChimeraX)** | [![Stars](https://img.shields.io/github/stars/RBVI/ChimeraX?style=social&color=white)](https://github.com/RBVI/ChimeraX/stargazers) | Molecular Graphics | Next-generation interactive molecular visualization for cryo-EM density maps and large protein complexes. |
+
+---
+
+## 🤝 How to Contribute
+
+1. 🍴 **Fork** this repository.
+2. 📝 **Add/edit** entries in `README.md` following the tabular format.
+3. 🔬 Provide details: Name, Official URL, exact pricing tier or GitHub link, star count, and brief capability summary.
+4. 🚀 Submit a **Pull Request** with a brief summary of your updates.
+
+---
+
+## 💖 Support
+
+Thank you for exploring and using **Awesome Molecular Modeling**! 🌟  
+If you find this repository valuable for your computational research, drug design, or chemistry projects, please consider:
+
+- ⭐ **Starring** this repository to increase its visibility.
+- 🔀 **Forking** it to add new tools and keep the list growing.
+- 📢 **Sharing** it with colleagues, students, and research groups.
+- ☕ **Sponsoring** the project maintainer via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for educational and scientific research guidance.
+- Product pricing, features, and company valuations fluctuate; check official vendor pages for current details.
+- Results from molecular simulations depend heavily on chosen force fields, parameterization, and hardware setup.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Molecular-Modeling&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Molecular-Modeling&type=date&legend=top-left)

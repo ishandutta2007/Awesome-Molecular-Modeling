@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </radialGradient>
+
+    <style>
+      .title { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 54px; fill: #ffffff; }
+      .subtitle { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 22px; fill: #cbd5e1; }
+      .badge { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 14px; fill: #38bdf8; letter-spacing: 2px; }
+      
+      /* Dynamic pulses and rotations */
+      @keyframes float {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-10px) rotate(5deg); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 0.7; transform: scale(1.15); }
+      }
+      @keyframes orbit {
+        0% { transform: rotate(0deg) translateX(60px) rotate(0deg); }
+        100% { transform: rotate(360deg) translateX(60px) rotate(-360deg); }
+      }
+      
+      .atom1 { animation: float 6s ease-in-out infinite; transform-origin: 1000px 150px; }
+      .atom2 { animation: float 8s ease-in-out infinite reverse; transform-origin: 150px 200px; }
+      .glow-element { animation: pulse 4s ease-in-out infinite; transform-origin: center; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" rx="16" fill="url(#bg)"/>
+
+  <!-- Subtle Dynamic Background Glows -->
+  <circle cx="1000" cy="150" r="180" fill="url(#glow1)" class="glow-element"/>
+  <circle cx="150" cy="150" r="150" fill="url(#glow2)" class="glow-element"/>
+
+  <!-- Dynamic Molecular Structure Graphic (Right side - muted background aspect) -->
+  <g class="atom1" opacity="0.6">
+    <!-- Bonds -->
+    <line x1="950" y1="150" x2="1050" y2="90" stroke="#818cf8" stroke-width="4" stroke-dasharray="8 4"/>
+    <line x1="950" y1="150" x2="1050" y2="210" stroke="#818cf8" stroke-width="4"/>
+    <line x1="950" y1="150" x2="870" y2="150" stroke="#38bdf8" stroke-width="4"/>
+    <line x1="1050" y1="90" x2="1120" y2="130" stroke="#c084fc" stroke-width="4"/>
+    
+    <!-- Atoms -->
+    <circle cx="950" cy="150" r="22" fill="#38bdf8"/>
+    <circle cx="1050" cy="90" r="16" fill="#818cf8"/>
+    <circle cx="1050" cy="210" r="18" fill="#c084fc"/>
+    <circle cx="870" cy="150" r="14" fill="#34d399"/>
+    <circle cx="1120" cy="130" r="12" fill="#f43f5e"/>
+  </g>
+
+  <!-- Dynamic Decorative Nodes (Left side) -->
+  <g class="atom2" opacity="0.4">
+    <line x1="100" y1="80" x2="180" y2="130" stroke="#38bdf8" stroke-width="3"/>
+    <line x1="180" y1="130" x2="130" y2="220" stroke="#818cf8" stroke-width="3"/>
+    <circle cx="100" cy="80" r="12" fill="#818cf8"/>
+    <circle cx="180" cy="130" r="16" fill="#38bdf8"/>
+    <circle cx="130" cy="220" r="10" fill="#c084fc"/>
+  </g>
+
+  <!-- Foreground Content Block (Guaranteed high contrast and visibility) -->
+  <g transform="translate(100, 0)">
+    <!-- Category Badge -->
+    <rect x="0" y="55" width="280" height="28" rx="14" fill="#38bdf8" fill-opacity="0.15" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.5"/>
+    <text x="14" y="74" class="badge">CURATED ECOSYSTEM LIST</text>
+
+    <!-- Main Title -->
+    <text x="0" y="140" class="title">Awesome Molecular Modeling 🧬</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="185" class="subtitle">SaaS Platforms, Open-Source Libraries, MD Engines &amp; Computational Chemistry</text>
+    
+    <!-- Decorative Gradient Accent Bar -->
+    <rect x="0" y="215" width="460" height="5" rx="2.5" fill="url(#accent)"/>
+  </g>
+</svg>
