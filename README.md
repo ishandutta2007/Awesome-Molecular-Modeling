@@ -53,9 +53,9 @@ The SaaS and commercial solutions below are sorted in descending order by **Comp
 
 ## 💻 Open-Source GitHub Projects
 
-Molecular modeling features one of the strongest open-source computational ecosystems. Below are the top open-source repositories ranked in descending order by **GitHub Star Count** 🌟.
+Molecular modeling features one of the strongest open-source computational ecosystems. Below are the top open-source repositories ranked in descending order by **GitHub Stars_Count** 🌟.
 
-| Rank | Project Name 🚀 | GitHub Stars ⭐ | Primary Domain 🧪 | Description 📝 |
+| Rank | Project Name 🚀 | GitHub_Stars ⭐ | Primary Domain 🧪 | Description 📝 |
 | :---: | :--- | :---: | :--- | :--- |
 | 1 | **[DeepChem](https://github.com/deepchem/deepchem)** | [![Stars](https://img.shields.io/github/stars/deepchem/deepchem?style=social&color=white)](https://github.com/deepchem/deepchem/stargazers) | Machine Learning & AI | Democratizing deep learning for drug discovery, quantum chemistry, materials science, and biology. |
 | 2 | **[BioPython](https://github.com/biopython/biopython)** | [![Stars](https://img.shields.io/github/stars/biopython/biopython?style=social&color=white)](https://github.com/biopython/biopython/stargazers) | Bioinformatics | International association of developers of freely available Python tools for computational molecular biology. |
@@ -77,7 +77,7 @@ Molecular modeling features one of the strongest open-source computational ecosy
 
 1. 🍴 **Fork** this repository.
 2. 📝 **Add/edit** entries in `README.md` following the tabular format.
-3. 🔬 Provide details: Name, Official URL, exact pricing tier or GitHub link, star count, and brief capability summary.
+3. 🔬 Provide details: Name, Official URL, exact pricing tier or GitHub link, Stars_Count, and brief capability summary.
 4. 🚀 Submit a **Pull Request** with a brief summary of your updates.
 
 ---
